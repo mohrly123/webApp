@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.hauptContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./schnee.png");
+    background-size: cover; /* Adjust the percentage to zoom out */
+    background-position: left;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.containerCloseBtn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.material-symbols-outlined{
+    font-size: 30px;
+    transition: 0.1s ease;
+}
+.material-symbols-outlined:active{
+    font-size: 35px;
+    transition: 0.1s ease;
+}
+#closeBtn{
+    background-color: transparent;
+    border: none;
+}

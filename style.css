@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.hauptContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 99vw;
+    height: 99vh;
+    background-image: url("./images/startseite.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border: 2px solid green;
+}
+
+/* -- Bereich für den Container mit dem ganzen Header Teil --  */
+.headerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    
+   
+}
+#ueberschrift{
+    font-size: 1.4em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#beschreibung{
+    margin-top: 10px;
+}
+
+
+/* -- Bereich für den Container mit den Buttons --  */
+
+.btnContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    height: 60%;
+    width: 80%;
+    align-items: center;
+    /*border: 2px solid black;*/
+}
+
+.btn{
+    width: 90%;
+    height: 10%;
+    background: none;
+    border-radius: 5px;
+    transition: 0.10s ease;
+    font-size: 1.2em;
+    font-weight: 400;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.btn:active{
+    width: 90%;
+    height: 10%;
+    background: none;
+    border-radius: 10px;
+    font-size: 1.3em;
+    font-weight:800;
+    transition: 0.10s ease;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.btnContainer .btn .material-symbols-outlined {
+    margin: 0 30px; /* Fügt 10px Abstand links und rechts der Symbole hinzu */
+}
+
+#btnWetter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    
+}
